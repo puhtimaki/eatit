@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="script.js"></script>
     <link href="https://fonts.cdnfonts.com/css/omnes" rel="stylesheet" />
-    <title>EAT IT - Team lunch</title>
+    <title>EAT IT - Team lunch generator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <h1>EAT IT &trade; - Your choice for team lunches</h1>
+    <h1>EAT IT &trade; &nbsp; - Your choice for team lunches</h1>
 
     <img id="eatitgif" src="eatit.gif" alt="EAT IT" />
 
@@ -19,11 +19,15 @@
       Please roll to choose:
     </p>
 
-    <form id="tiedot">
-      <input type="text" placeholder="lunch" />
-      <br />
-      <br />
-    </form>
-    <button class="button">Roll</button>
+    <p id="tulos" class="second"></p>
+
+    <input
+      type="button"
+      button
+      class="button"
+      id="btnRoll"
+      value="Roll"
+      onclick="GetLunch();"
+    />
   </body>
 </html>

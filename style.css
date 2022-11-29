@@ -13,21 +13,34 @@ body {
 h1 {
   font-size: 45 px;
   color: white;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 90px;
 }
 
 .first {
   color: white;
-  font-size: 25px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.second {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
 }
 
 #eatitgif {
   width: 500px;
   height: 200px;
   border-radius: 10%;
+  margin-right: 33%;
+  margin-left: 33%;
 }
 
 .button {
-  background-color: #00c2e8; /* Green */
+  background-color: black; /* Green */
   border: none;
   color: white;
   padding: 10px 60px;
@@ -37,4 +50,7 @@ h1 {
   font-size: 15px;
   font-weight: 500;
   font-family: 'Omnes', sans-serif;
+  border-radius: 5px;
+  margin-right: 45%;
+  margin-left: 45%;
 }
