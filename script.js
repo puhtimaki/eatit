@@ -1,2 +1,4 @@
 'strict'
-console.log('juu')
+
+const x = seppo
+console.log(x)
