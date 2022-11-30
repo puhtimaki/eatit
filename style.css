@@ -3,6 +3,7 @@
 }
 
 body {
+ 
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -14,49 +15,157 @@ body {
   font-size: 20px;
 }
 
-h1 {
-  font-size: 45 px;
+
+#container
+{
+width:100%;
+min-height: 100%;
+
+
+margin-bottom: -50px;
+
+}
+
+
+.navbar{
+background-color: white;
+padding-top: 1px;
+padding-bottom: 1px;
+border-radius: 25px;
+border: 2px thin;
+margin-left: 1%;
+margin-right:60%;
+}
+
+
+.banner{
+margin-left: 1%;
+margin-top:20px;
+margin-bottom:20px;
+
+  
+  
+}
+
+.mainbody{
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 25px;
+  border: 2px thin;
+  margin-left: 1%;
+  margin-right:65%;
+  margin-top:10px;
+  margin-bottom:10px;
+ 
+  
+}
+
+.sidebar{
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 25px;
+  border: 2px thin;
+  margin-left: 1%;
+  margin-right:65%;
+  margin-top:10px;
+  margin-bottom:10px;
+  
+}
+
+.footer{
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 25px;
+  border: 2px thin;
+  margin-left: 1%;
+  font-weight: bold;
+  margin-right:65%;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,212,255,1) 0%, rgba(55,222,255,1) 6%);
+  
+}
+
+.footertext{
   color: white;
-  text-align: center;
-  padding-bottom: 40px;
-  padding-top: 90px;
+  font-size: 15px;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+
+
+.header {
+  font-size: 45px;
+  color: #00bce1;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+
+
+  
 }
 
 .first {
-  color: white;
+  color: #00bce1;
   font-size: 22px;
-  text-align: center;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-right: 20px;
 }
+
 
 .second {
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
-  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+
 }
 
-#eatitgif {
-  width: 500px;
-  height: 200px;
-  border-radius: 10%;
-  padding-right: auto;
-  padding-left: auto;
-  margin-right: 33%;
-  margin-left: 33%;
+.eatitgif {
+
+  border-radius: 25px;
+border: 2px thin;
+margin-right:1px;
+margin-left:1px;
+width: 30%;
 }
 
 .button {
-  background-color: black; /* Green */
-  border: none;
+background-color: #00bce1;
   color: white;
   padding: 10px 60px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
   font-family: 'Omnes', sans-serif;
   border-radius: 5px;
-  margin-right: 45%;
-  margin-left: 45%;
+  margin-left: 1%;
+  margin-right:65%;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-weight: bold;
+
+  
+}
+
+.tulokset{
+
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 25px;
+  border: 2px thin;
+  margin-left: 1%;
+  font-weight: bold;
+  margin-right:65%;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,212,255,1) 0%, rgba(55,222,255,1) 6%);
+
 }
