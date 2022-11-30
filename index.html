@@ -12,79 +12,60 @@
 
   <body>
     <div id="container">
+      <div class="navbar">
+        <p class="header">
+          EAT IT
+          <img src="pizza.png" width="50" height="50" />
+          - Your choice for team lunches
+        </p>
+      </div>
 
-<div class ="navbar">
-<p class="header">EAT IT <img src="pizza.png" width="50" height="50"> - Your choice for team lunches</p>
+      <div class="banner">
+        <img class="eatitgif" src="eatit.gif" alt="EAT IT" />
+      </div>
+      <div class="sidebar">
+        <p class="first">
+          Choose categories:
+          <br />
+          <input type="checkbox" id="pizza" name="pizza" value="Pizza" />
+          <label for="Pizza">Pizza</label>
+          <br />
+          <input type="checkbox" id="Sushi" name="Sushi" value="Sushi" />
+          <label for="Sushi">Sushi</label>
+          <br />
+          <input type="checkbox" id="Burger" name="Burger" value="Burger" />
+          <label for="Burger">Burger</label>
+          <br />
+          <input type="checkbox" id="Other" name="Burger" value="Other" />
+          <label for="Other">Other</label>
+          <br />
+        </p>
+      </div>
 
+      <div class="mainbody">
+        <p class="first">
+          Please roll to choose:
+        </p>
 
+        <div class="tulokset">
+          <p id="tulos" class="second"></p>
+        </div>
 
+        <input
+          type="button"
+          button
+          class="button"
+          id="btnRoll"
+          value="Roll"
+          onclick="GetLunch();"
+        />
+      </div>
 
-</div>
-
-
-<div class = "banner">
-
-<img class="eatitgif" src="eatit.gif" alt="EAT IT" />
-
-</div>
-<div class = "sidebar">
-  <p class="first">
-    Choose categories:<br>
-    <input type="checkbox" id="pizza" name="pizza" value="Pizza">
-<label for="Pizza"> Pizza</label><br>
-<input type="checkbox" id="Sushi" name="Sushi" value="Sushi">
-<label for="Sushi"> Sushi</label><br>
-<input type="checkbox" id="Burger" name="Burger" value="Burger">
-<label for="Burger"> Burger</label><br>
-<input type="checkbox" id="Other" name="Burger" value="Other">
-<label for="Other"> Other</label><br>
-  </p>
-  
-  </div>
-
-<div class = "mainbody">
-
-  <p class="first">
-    Please roll to choose:
-  </p>
-  
-  <div class = tulokset>
-    <p id="tulos" class="second"></p>
-
-      
+      <div class="footer">
+        <p class="footertext">
+          Copyright: Juho
+        </p>
+      </div>
     </div>
-  
-  <input
-    type="button"
-    button
-    class="button"
-    id="btnRoll"
-    value="Roll"
-    onclick="GetLunch();"
-  />
-
-</div>
-
-
-
-<div class ="footer">
-  <p class="footertext">
-Copyright: Juho  </p>
-
-</div>
-
-    </div>
-
- 
   </body>
 </html>
-
-
-
-
-
-
-
-   
-
-
