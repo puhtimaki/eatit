@@ -164,7 +164,56 @@ body {
     border-radius: 25px;
     border: 2px thin;
     margin-left: 1%;
-    
+  }
+  .footer {
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 25px;
+    border: 2px thin;
+    margin-left: 1%;
+    font-weight: bold;
+    margin-right: 54%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(65, 212, 255, 1) 0%,
+      rgba(55, 222, 255, 1) 6%
+    );
+  }
+  .button {
+    background-color: #00bce1;
+    color: white;
+    padding: 13px 60px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Omnes', sans-serif;
+    border-radius: 5px;
+    margin-left: 3%;
+    margin-right: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .tulokset {
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 25px;
+    border: 2px thin;
+    margin-left: 1%;
+    font-weight: bold;
+    margin-right: 40%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(65, 212, 255, 1) 0%,
+      rgba(55, 222, 255, 1) 6%
+    );
   }
   .eatitgif {
     border-radius: 25px;
@@ -172,40 +221,6 @@ body {
     margin-right: 1px;
     margin-left: 1px;
     width: 80%;
-}
-
-.mainbody {
-  background-color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: 25px;
-  border: 2px thin;
-  margin-left: 1%;
-  margin-right: 48%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.sidebar {
-  background-color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: 25px;
-  border: 2px thin;
-  margin-left: 1%;
-  margin-right: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-@media all and (min-width: 801px) and (max-width: 959px) {
-  .navbar {
-    background-color: white;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 25px;
-    border: 2px thin;
-    margin-left: 1%;
   }
 
   .mainbody {
@@ -219,181 +234,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .eatitgif {
-    border-radius: 25px;
-    border: 2px thin;
-    margin-right: 1px;
-    margin-left: 1px;
-    width: 80%;
-}
 
-.sidebar {
-  background-color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: 25px;
-  border: 2px thin;
-  margin-left: 1%;
-  margin-right: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-}
-
-@media all and (min-width: 769px) and (max-width: 800px) {
-  .navbar {
-    background-color: white;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 25px;
-    border: 2px thin;
-    margin-left: 1%;
-  }
-  .mainbody {
-    background-color: white;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 25px;
-    border: 2px thin;
-    margin-left: 1%;
-    margin-right: 48%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
-
-@media all and (min-width: 569px) and (max-width: 768px) {
-  .navbar {
-    background-color: white;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 25px;
-    border: 2px thin;
-    margin-left: 1%;
-  }
-  .eatitgif {
-    border-radius: 25px;
-    border: 2px thin;
-    margin-right: 1px;
-    margin-left: 1px;
-    width: 80%;
-}
-.sidebar {
-  background-color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: 25px;
-  border: 2px thin;
-  margin-left: 1%;
-  margin-right: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.mainbody {
-  background-color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: 25px;
-  border: 2px thin;
-  margin-left: 1%;
-  margin-right: 48%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-}
-
-@media all and (min-width: 481px) and (max-width: 568px) {
-  .navbar {
-    background-color: white;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 25px;
-    border: 2px thin;
-    margin-left: 1%;
-  }
-  .eatitgif {
-    border-radius: 25px;
-    border: 2px thin;
-    margin-right: 1px;
-    margin-left: 1px;
-    width: 80%;
-}
-.sidebar {
-  background-color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: 25px;
-  border: 2px thin;
-  margin-left: 1%;
-  margin-right: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.mainbody {
-  background-color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: 25px;
-  border: 2px thin;
-  margin-left: 1%;
-  margin-right: 48%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-}
-
-@media all and (min-width: 321px) and (max-width: 480px) {
-  .navbar {
-    background-color: white;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 25px;
-    border: 2px thin;
-    margin-left: 1%;
-    margin: 10px;
-  }
-  .eatitgif {
-    border-radius: 25px;
-    border: 2px thin;
-    margin-right: 1px;
-    margin-left: 1px;
-    width: 80%;
-}
-.sidebar {
-  background-color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: 25px;
-  border: 2px thin;
-  margin-left: 1%;
-  margin-right: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.mainbody {
-  background-color: white;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  border-radius: 25px;
-  border: 2px thin;
-  margin-left: 1%;
-  margin-right: 48%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-}
-
-@media all and (min-width: 0px) and (max-width: 320px) {
-  .navbar {
-    background-color: white;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 25px;
-    border: 2px thin;
-    margin-left: 1%;
-    margin: 10px;
-  }
   .sidebar {
     background-color: white;
     padding-top: 1px;
@@ -405,23 +246,546 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .mainbody {
-    background-color: white;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 25px;
-    border: 2px thin;
-    margin-left: 1%;
-    margin-right: 48%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+  @media all and (min-width: 801px) and (max-width: 959px) {
+    .navbar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+    }
+    .footer {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 54%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .button {
+      background-color: #00bce1;
+      color: white;
+      padding: 13px 60px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: 'Omnes', sans-serif;
+      border-radius: 5px;
+      margin-left: 3%;
+      margin-right: 65%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .tulokset {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 40%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .mainbody {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 48%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .eatitgif {
+      border-radius: 25px;
+      border: 2px thin;
+      margin-right: 1px;
+      margin-left: 1px;
+      width: 80%;
+    }
+
+    .sidebar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
   }
 
-  .eatitgif {
-    border-radius: 25px;
-    border: 2px thin;
-    margin-right: 1px;
-    margin-left: 1px;
-    width: 80%;
-}
+  @media all and (min-width: 769px) and (max-width: 800px) {
+    .navbar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+    }
+    .footer {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 54%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .button {
+      background-color: #00bce1;
+      color: white;
+      padding: 13px 60px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: 'Omnes', sans-serif;
+      border-radius: 5px;
+      margin-left: 3%;
+      margin-right: 65%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .tulokset {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 40%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .mainbody {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 48%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media all and (min-width: 569px) and (max-width: 768px) {
+    .navbar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+    }
+    .footer {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 54%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .button {
+      background-color: #00bce1;
+      color: white;
+      padding: 13px 60px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: 'Omnes', sans-serif;
+      border-radius: 5px;
+      margin-left: 3%;
+      margin-right: 65%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .tulokset {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 40%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .eatitgif {
+      border-radius: 25px;
+      border: 2px thin;
+      margin-right: 1px;
+      margin-left: 1px;
+      width: 80%;
+    }
+    .sidebar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .mainbody {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 48%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media all and (min-width: 481px) and (max-width: 568px) {
+    .navbar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+    }
+    .footer {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 54%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .button {
+      background-color: #00bce1;
+      color: white;
+      padding: 13px 60px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: 'Omnes', sans-serif;
+      border-radius: 5px;
+      margin-left: 3%;
+      margin-right: 65%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .tulokset {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 40%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .eatitgif {
+      border-radius: 25px;
+      border: 2px thin;
+      margin-right: 1px;
+      margin-left: 1px;
+      width: 80%;
+    }
+    .sidebar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .mainbody {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 48%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media all and (min-width: 321px) and (max-width: 480px) {
+    .navbar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin: 10px;
+    }
+    .footer {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 54%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .button {
+      background-color: #00bce1;
+      color: white;
+      padding: 13px 60px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: 'Omnes', sans-serif;
+      border-radius: 5px;
+      margin-left: 3%;
+      margin-right: 65%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .tulokset {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 40%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .eatitgif {
+      border-radius: 25px;
+      border: 2px thin;
+      margin-right: 1px;
+      margin-left: 1px;
+      width: 80%;
+    }
+    .sidebar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .mainbody {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 48%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media all and (min-width: 0px) and (max-width: 320px) {
+    .navbar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin: 10px;
+    }
+    .footer {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 54%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .button {
+      background-color: #00bce1;
+      color: white;
+      padding: 13px 60px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: 'Omnes', sans-serif;
+      border-radius: 5px;
+      margin-left: 3%;
+      margin-right: 65%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .tulokset {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      font-weight: bold;
+      margin-right: 40%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(65, 212, 255, 1) 0%,
+        rgba(55, 222, 255, 1) 6%
+      );
+    }
+    .sidebar {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 50%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .mainbody {
+      background-color: white;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      border-radius: 25px;
+      border: 2px thin;
+      margin-left: 1%;
+      margin-right: 48%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .eatitgif {
+      border-radius: 25px;
+      border: 2px thin;
+      margin-right: 1px;
+      margin-left: 1px;
+      width: 80%;
+    }
+    .button {
+      background-color: #00bce1;
+      color: white;
+      padding: 13px 60px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: 'Omnes', sans-serif;
+      border-radius: 5px;
+      margin-left: 3%;
+      margin-right: 65%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  }
 }
