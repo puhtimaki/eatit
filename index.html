@@ -25,18 +25,52 @@
       </div>
       <div class="sidebar">
         <p class="first">
-          Choose categories:
+          Choose category:
           <br />
-          <input type="checkbox" id="Pizza" name="pizza" value="Pizza" />
+          <input
+            type="radio"
+            id="SelectAll"
+            name="type"
+            value="SelectAll"
+            checked="checked"
+            onclick="checkboxCheck();"
+          />
+          <label for="SelectAll">Shuffle everything</label>
+          <br />
+          <input
+            type="radio"
+            id="Pizza"
+            name="type"
+            value="Pizza"
+            onclick="checkboxCheck();"
+          />
           <label for="Pizza">Pizza</label>
           <br />
-          <input type="checkbox" id="Sushi" name="Sushi" value="Sushi" />
-          <label for="Sushi">Sushi</label>
+          <input
+            type="radio"
+            id="Sushi"
+            name="type"
+            value="Sushi"
+            onclick="checkboxCheck();"
+          />
+          <label for="Sushi">Chinese</label>
           <br />
-          <input type="checkbox" id="Burger" name="Burger" value="Burger" />
+          <input
+            type="radio"
+            id="Burger"
+            name="type"
+            value="Burger"
+            onclick="checkboxCheck();"
+          />
           <label for="Burger">Burger</label>
           <br />
-          <input type="checkbox" id="Other" name="Burger" value="Other" />
+          <input
+            type="radio"
+            id="Other"
+            name="type"
+            value="Other"
+            onclick="checkboxCheck();"
+          />
           <label for="Other">Other</label>
           <br />
         </p>
@@ -57,7 +91,7 @@
           class="button"
           id="btnRoll"
           value="Roll"
-          onclick="GetLunch();"
+          onclick="checkboxCheck();"
         />
       </div>
 
