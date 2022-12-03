@@ -1,57 +1,5 @@
 'strict'
 
-function GetLunch() {
-  const lista = [
-    'Mcdonalds',
-    'Subway',
-    'Smart Pizza',
-    'Hesburger',
-    'Pizzeria Babiloma',
-    'Pikku Quattro',
-    'Korv-Görans',
-    'Calzone',
-    'Burger King',
-    'Chimaek',
-    'Friends & Brgrs',
-    'Proper Pizza',
-    'Social Burgerjoint',
-    'Niska',
-    'O Sole Mio',
-    'K.achi',
-    'Tom Yum Thai',
-    'Daiwo Sushi',
-    'Härdin Pizzeria',
-    'Star - Kebab & Burger',
-    'Tian Long',
-    'Milano Kebab Pizzeria',
-    'Amore',
-    'Rax Pizzabuffet',
-    'Naarau Kebab Pizzeria',
-    'Laanna Thai',
-    'Venn Vaasa',
-    'Cafe Uimala',
-    'Linda Kebab Pizzeria',
-    'Wasa Palosaari Pizzeria',
-    'Rosso Pizza',
-    'Fondis',
-    'The Urban Bites',
-    'Juku',
-    'Amarillo',
-    'Cafe Tintin Präntöö',
-    'Rosso Vaasa',
-    'Pancho Villa',
-    'Momento',
-    'Valencia',
-    'Olympia',
-    'El Diablito',
-    'Pikku Meksiko',
-    'Two Ways Wasa',
-  ]
-
-  let random = lista[Math.floor(Math.random() * lista.length)]
-  document.getElementById('tulos').innerHTML = random
-}
-
 function checkboxCheck() {
   const lista = [
     'Mcdonalds',
